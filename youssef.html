@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Youssef The Developer | The Smartest (Fake) AI</title>
+    <style>
+      /* Rectangle to cover watermark */
+      .hide-watermark {
+        position: fixed;
+        bottom: 28px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 300px; /* Much wider */
+        height: 100px; /* Much taller */
+        background-color: #0f1129;
+        z-index: 2147483647 !important;
+        border-radius: 5px;
+        pointer-events: none;
+
+        /* Text styling */
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Load Landbot Script -->
+    <script type="module" src="https://cdn.landbot.io/landbot-3/landbot-3.0.0.mjs"></script>
+
+    <!-- Initialize Landbot -->
+    <script type="module">
+      var myLandbot = new Landbot.Fullpage({
+        configUrl:
+          "https://storage.googleapis.com/landbot.online/v3/H-3024617-OQUNAL0RL6ZXUG9O/index.json",
+      });
+    </script>
+
+    <!-- Rectangle to cover watermark -->
+    <div class="hide-watermark">
+      Youssef The Developer 
+    </div>
+  </body>
+</html>
